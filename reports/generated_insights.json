@@ -1,0 +1,574 @@
+{
+  "country_summary": [
+    {
+      "country": "Nigeria",
+      "facilities": 4,
+      "avg_staff_per_10k": 4.155434677962838,
+      "avg_functionality": 0.4475,
+      "stockout_rate": 0.42500000000000004,
+      "undercapacity_rate": 1.0
+    },
+    {
+      "country": "Kenya",
+      "facilities": 3,
+      "avg_staff_per_10k": 4.8,
+      "avg_functionality": 0.6266666666666666,
+      "stockout_rate": 0.33666666666666667,
+      "undercapacity_rate": 1.0
+    },
+    {
+      "country": "Uganda",
+      "facilities": 3,
+      "avg_staff_per_10k": 4.382819794584501,
+      "avg_functionality": 0.5966666666666667,
+      "stockout_rate": 0.35000000000000003,
+      "undercapacity_rate": 1.0
+    },
+    {
+      "country": "South Africa",
+      "facilities": 4,
+      "avg_staff_per_10k": 4.42468944099379,
+      "avg_functionality": 0.665,
+      "stockout_rate": 0.27249999999999996,
+      "undercapacity_rate": 1.0
+    }
+  ],
+  "underserved_facilities": [
+    {
+      "country": "Kenya",
+      "region": "Kilifi",
+      "facility_id": "KLF009",
+      "staff_per_10k": 3.68421052631579,
+      "functionality_score": 0.56,
+      "stockout_rate": 0.41
+    },
+    {
+      "country": "Kenya",
+      "region": "Kisumu",
+      "facility_id": "KSM013",
+      "staff_per_10k": 4.4,
+      "functionality_score": 0.59,
+      "stockout_rate": 0.33
+    },
+    {
+      "country": "Kenya",
+      "region": "Nairobi",
+      "facility_id": "NBI004",
+      "staff_per_10k": 6.315789473684211,
+      "functionality_score": 0.73,
+      "stockout_rate": 0.27
+    },
+    {
+      "country": "Nigeria",
+      "region": "Akwa Ibom",
+      "facility_id": "AKW011",
+      "staff_per_10k": 3.076923076923077,
+      "functionality_score": 0.31,
+      "stockout_rate": 0.54
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kano",
+      "facility_id": "KAN023",
+      "staff_per_10k": 4.042553191489362,
+      "functionality_score": 0.49,
+      "stockout_rate": 0.36
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna",
+      "facility_id": "KAD014",
+      "staff_per_10k": 4.11764705882353,
+      "functionality_score": 0.41,
+      "stockout_rate": 0.48
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos",
+      "facility_id": "LAG001",
+      "staff_per_10k": 5.384615384615384,
+      "functionality_score": 0.58,
+      "stockout_rate": 0.32
+    },
+    {
+      "country": "South Africa",
+      "region": "Limpopo",
+      "facility_id": "LIM034",
+      "staff_per_10k": 3.9130434782608696,
+      "functionality_score": 0.52,
+      "stockout_rate": 0.37
+    },
+    {
+      "country": "South Africa",
+      "region": "KwaZulu-Natal",
+      "facility_id": "KZN021",
+      "staff_per_10k": 4.166666666666667,
+      "functionality_score": 0.65,
+      "stockout_rate": 0.25
+    },
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "facility_id": "ECT012",
+      "staff_per_10k": 4.285714285714286,
+      "functionality_score": 0.68,
+      "stockout_rate": 0.29
+    }
+  ],
+  "forecasts": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos",
+      "indicator": "malaria_cases",
+      "current_value": 400.0,
+      "forecast_value": 420.0,
+      "delta": 20.0
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos",
+      "indicator": "respiratory_cases",
+      "current_value": 480.0,
+      "forecast_value": 502.5,
+      "delta": 22.5
+    },
+    {
+      "country": "Nigeria",
+      "region": "Lagos",
+      "indicator": "maternal_complications",
+      "current_value": 36.0,
+      "forecast_value": 33.5,
+      "delta": -2.5
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna",
+      "indicator": "malaria_cases",
+      "current_value": 670.0,
+      "forecast_value": 700.0,
+      "delta": 30.0
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna",
+      "indicator": "respiratory_cases",
+      "current_value": 350.0,
+      "forecast_value": 370.0,
+      "delta": 20.0
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna",
+      "indicator": "maternal_complications",
+      "current_value": 50.0,
+      "forecast_value": 51.5,
+      "delta": 1.5
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kano",
+      "indicator": "malaria_cases",
+      "current_value": 860.0,
+      "forecast_value": 905.0,
+      "delta": 45.0
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kano",
+      "indicator": "respiratory_cases",
+      "current_value": 320.0,
+      "forecast_value": 335.0,
+      "delta": 15.0
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kano",
+      "indicator": "maternal_complications",
+      "current_value": 46.0,
+      "forecast_value": 47.5,
+      "delta": 1.5
+    },
+    {
+      "country": "Kenya",
+      "region": "Nairobi",
+      "indicator": "malaria_cases",
+      "current_value": 260.0,
+      "forecast_value": 275.0,
+      "delta": 15.0
+    },
+    {
+      "country": "Kenya",
+      "region": "Nairobi",
+      "indicator": "respiratory_cases",
+      "current_value": 410.0,
+      "forecast_value": 425.0,
+      "delta": 15.0
+    },
+    {
+      "country": "Kenya",
+      "region": "Nairobi",
+      "indicator": "maternal_complications",
+      "current_value": 30.0,
+      "forecast_value": 30.5,
+      "delta": 0.5
+    },
+    {
+      "country": "Kenya",
+      "region": "Kilifi",
+      "indicator": "malaria_cases",
+      "current_value": 530.0,
+      "forecast_value": 550.0,
+      "delta": 20.0
+    },
+    {
+      "country": "Kenya",
+      "region": "Kilifi",
+      "indicator": "respiratory_cases",
+      "current_value": 250.0,
+      "forecast_value": 260.0,
+      "delta": 10.0
+    },
+    {
+      "country": "Kenya",
+      "region": "Kilifi",
+      "indicator": "maternal_complications",
+      "current_value": 36.0,
+      "forecast_value": 37.0,
+      "delta": 1.0
+    },
+    {
+      "country": "Kenya",
+      "region": "Kisumu",
+      "indicator": "malaria_cases",
+      "current_value": 450.0,
+      "forecast_value": 470.0,
+      "delta": 20.0
+    },
+    {
+      "country": "Kenya",
+      "region": "Kisumu",
+      "indicator": "respiratory_cases",
+      "current_value": 280.0,
+      "forecast_value": 290.0,
+      "delta": 10.0
+    },
+    {
+      "country": "Kenya",
+      "region": "Kisumu",
+      "indicator": "maternal_complications",
+      "current_value": 35.0,
+      "forecast_value": 36.0,
+      "delta": 1.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Kampala",
+      "indicator": "malaria_cases",
+      "current_value": 300.0,
+      "forecast_value": 310.0,
+      "delta": 10.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Kampala",
+      "indicator": "respiratory_cases",
+      "current_value": 340.0,
+      "forecast_value": 350.0,
+      "delta": 10.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Kampala",
+      "indicator": "maternal_complications",
+      "current_value": 35.0,
+      "forecast_value": 34.0,
+      "delta": -1.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Gulu",
+      "indicator": "malaria_cases",
+      "current_value": 590.0,
+      "forecast_value": 610.0,
+      "delta": 20.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Gulu",
+      "indicator": "respiratory_cases",
+      "current_value": 230.0,
+      "forecast_value": 240.0,
+      "delta": 10.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Gulu",
+      "indicator": "maternal_complications",
+      "current_value": 41.0,
+      "forecast_value": 42.0,
+      "delta": 1.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Fort Portal",
+      "indicator": "malaria_cases",
+      "current_value": 400.0,
+      "forecast_value": 420.0,
+      "delta": 20.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Fort Portal",
+      "indicator": "respiratory_cases",
+      "current_value": 200.0,
+      "forecast_value": 205.0,
+      "delta": 5.0
+    },
+    {
+      "country": "Uganda",
+      "region": "Fort Portal",
+      "indicator": "maternal_complications",
+      "current_value": 33.0,
+      "forecast_value": 34.0,
+      "delta": 1.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Gauteng",
+      "indicator": "malaria_cases",
+      "current_value": 210.0,
+      "forecast_value": 220.0,
+      "delta": 10.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Gauteng",
+      "indicator": "respiratory_cases",
+      "current_value": 580.0,
+      "forecast_value": 600.0,
+      "delta": 20.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Gauteng",
+      "indicator": "maternal_complications",
+      "current_value": 26.0,
+      "forecast_value": 25.0,
+      "delta": -1.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "indicator": "malaria_cases",
+      "current_value": 290.0,
+      "forecast_value": 300.0,
+      "delta": 10.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "indicator": "respiratory_cases",
+      "current_value": 440.0,
+      "forecast_value": 455.0,
+      "delta": 15.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "indicator": "maternal_complications",
+      "current_value": 31.0,
+      "forecast_value": 31.5,
+      "delta": 0.5
+    },
+    {
+      "country": "South Africa",
+      "region": "KwaZulu-Natal",
+      "indicator": "malaria_cases",
+      "current_value": 360.0,
+      "forecast_value": 380.0,
+      "delta": 20.0
+    },
+    {
+      "country": "South Africa",
+      "region": "KwaZulu-Natal",
+      "indicator": "respiratory_cases",
+      "current_value": 470.0,
+      "forecast_value": 490.0,
+      "delta": 20.0
+    },
+    {
+      "country": "South Africa",
+      "region": "KwaZulu-Natal",
+      "indicator": "maternal_complications",
+      "current_value": 37.0,
+      "forecast_value": 38.0,
+      "delta": 1.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Limpopo",
+      "indicator": "malaria_cases",
+      "current_value": 460.0,
+      "forecast_value": 470.0,
+      "delta": 10.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Limpopo",
+      "indicator": "respiratory_cases",
+      "current_value": 290.0,
+      "forecast_value": 300.0,
+      "delta": 10.0
+    },
+    {
+      "country": "South Africa",
+      "region": "Limpopo",
+      "indicator": "maternal_complications",
+      "current_value": 36.0,
+      "forecast_value": 37.0,
+      "delta": 1.0
+    }
+  ],
+  "recommendations": [
+    {
+      "country": "Nigeria",
+      "region": "Lagos",
+      "facility_id": "LAG001",
+      "facility_type": "Clinic",
+      "staff_count": 28.0,
+      "required_staff": 66,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kaduna",
+      "facility_id": "KAD014",
+      "facility_type": "Health Center",
+      "staff_count": 14.0,
+      "required_staff": 47,
+      "urgent_stock_replenishment": true,
+      "refer_patients": false
+    },
+    {
+      "country": "Nigeria",
+      "region": "Kano",
+      "facility_id": "KAN023",
+      "facility_type": "Clinic",
+      "staff_count": 19.0,
+      "required_staff": 66,
+      "urgent_stock_replenishment": false,
+      "refer_patients": true
+    },
+    {
+      "country": "Nigeria",
+      "region": "Akwa Ibom",
+      "facility_id": "AKW011",
+      "facility_type": "Health Post",
+      "staff_count": 8.0,
+      "required_staff": 39,
+      "urgent_stock_replenishment": true,
+      "refer_patients": false
+    },
+    {
+      "country": "Kenya",
+      "region": "Nairobi",
+      "facility_id": "NBI004",
+      "facility_type": "Health Center",
+      "staff_count": 24.0,
+      "required_staff": 44,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    },
+    {
+      "country": "Kenya",
+      "region": "Kilifi",
+      "facility_id": "KLF009",
+      "facility_type": "Dispensary",
+      "staff_count": 7.0,
+      "required_staff": 27,
+      "urgent_stock_replenishment": true,
+      "refer_patients": false
+    },
+    {
+      "country": "Kenya",
+      "region": "Kisumu",
+      "facility_id": "KSM013",
+      "facility_type": "Clinic",
+      "staff_count": 11.0,
+      "required_staff": 34,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    },
+    {
+      "country": "Uganda",
+      "region": "Kampala",
+      "facility_id": "KMP007",
+      "facility_type": "Health Center",
+      "staff_count": 16.0,
+      "required_staff": 38,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    },
+    {
+      "country": "Uganda",
+      "region": "Gulu",
+      "facility_id": "GUL015",
+      "facility_type": "Health Post",
+      "staff_count": 9.0,
+      "required_staff": 29,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    },
+    {
+      "country": "Uganda",
+      "region": "Fort Portal",
+      "facility_id": "FPO018",
+      "facility_type": "Clinic",
+      "staff_count": 6.0,
+      "required_staff": 25,
+      "urgent_stock_replenishment": true,
+      "refer_patients": false
+    },
+    {
+      "country": "South Africa",
+      "region": "Gauteng",
+      "facility_id": "GAT005",
+      "facility_type": "Clinic",
+      "staff_count": 32.0,
+      "required_staff": 76,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    },
+    {
+      "country": "South Africa",
+      "region": "Eastern Cape",
+      "facility_id": "ECT012",
+      "facility_type": "Community Health Center",
+      "staff_count": 18.0,
+      "required_staff": 58,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    },
+    {
+      "country": "South Africa",
+      "region": "KwaZulu-Natal",
+      "facility_id": "KZN021",
+      "facility_type": "Clinic",
+      "staff_count": 20.0,
+      "required_staff": 66,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    },
+    {
+      "country": "South Africa",
+      "region": "Limpopo",
+      "facility_id": "LIM034",
+      "facility_type": "Health Post",
+      "staff_count": 9.0,
+      "required_staff": 32,
+      "urgent_stock_replenishment": false,
+      "refer_patients": false
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Optional packages for advanced analytics (not required for the base prototype)
+pandas
+numpy
