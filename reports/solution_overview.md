@@ -14,24 +14,25 @@ The prototype unifies three data pillars to uncover the current state of Primary
 
 ## 2. Predictive Insights & Diagnostic Support
 
-A lightweight analytics layer applies linear-trend forecasts to monthly disease incidence. Alerts are generated when next-month projections deviate by ±20 cases, supporting proactive triage and supply-chain triggers. Extending the pipeline with gradient boosting or prophet-style models would capture seasonality and rainfall effects that drive malaria and respiratory peaks.
+A lightweight analytics layer now applies a custom gradient boosting ensemble enriched with seasonal harmonics and facility context features (staff coverage, functionality, stock-out pressure). The boosted forecast is blended with a Bayesian structural prior to stabilise noisy regions and deliver confidence intervals. Alerts trigger when next-month projections deviate by ±20 cases, supporting proactive triage and supply-chain triggers.
 
 Diagnostic support can plug into standard Integrated Management of Childhood Illness (IMCI) and WHO PEN protocols by matching presenting symptoms with facility capacity. A rules-based knowledge base triages patients to community health workers, PHC clinics, or district hospitals, ensuring early detection of severe malaria, pneumonia, or obstetric emergencies.
 
 ## 3. Integrated Decision-Support Prototype
 
-The Python toolkit outputs four data products:
+The Python toolkit outputs five data products:
 
 1. **Country dashboard feed** – aggregated readiness and utilisation metrics, consumable by Power BI, Superset, or Kobo dashboards.
 2. **Priority facility watchlist** – top underperforming facilities with staffing, functionality, and commodity gaps.
-3. **Surge forecast stream** – near-term predictions for malaria, respiratory, and maternal complications to pre-position supplies.
-4. **Actionable recommendations** – staffing redeployment counts, stock-out escalation flags, and referral activation prompts.
+3. **Surge forecast stream** – near-term predictions for malaria, respiratory, and maternal complications (with confidence bands) to pre-position supplies.
+4. **Actionable recommendations** – staffing redeployment counts, stock-out escalation flags, surge preparation prompts, and triage guidance aligned to national protocols.
+5. **Localised channel assets** – RapidPro flow definitions, USSD menu text, and SMS digests in English, French, Swahili, and Portuguese for low-bandwidth decision support.
 
 These outputs can be surfaced through:
 
-- **Low-bandwidth dashboards** with offline caching (e.g., Streamlit + sqlite or Power Apps).
-- **Chat-based assistants** integrated into WhatsApp, RapidPro, or USSD channels for facility managers to query in natural language.
-- **Automated SMS alerts** to district health officers for surge warnings or urgent stock replenishment tasks.
+- **Low-bandwidth dashboards** with offline caching (Streamlit workspace included; optional export to Power BI or Superset).
+- **Chat-based assistants** integrated into WhatsApp, RapidPro, or USSD channels for facility managers to query in natural language, powered by the generated flow definitions.
+- **Automated SMS alerts** and bulk digests to district health officers for surge warnings or urgent stock replenishment tasks, available in multiple languages.
 
 ## 4. Visualisation & Policy Engagement
 
@@ -49,7 +50,7 @@ Insights are exportable as JSON, CSV, or directly into BI connectors, enabling r
 | Phase | Activities | Impact Metrics |
 | --- | --- | --- |
 | Pilot (3–6 months) | Deploy in two districts per country; integrate with DHIS2 and facility master list; train district health teams | % facilities submitting weekly data; reduction in stock-out incidents; time-to-escalate critical cases |
-| National Rollout (6–18 months) | Automate ETL pipelines; expand to multilingual chatbot; embed triage rules with national guidelines | Patient-to-provider ratio improvements; decrease in avoidable referrals; forecast accuracy |
+| National Rollout (6–18 months) | Automate ETL pipelines; deploy multilingual RapidPro/USSD assistants; embed triage rules with national guidelines | Patient-to-provider ratio improvements; decrease in avoidable referrals; forecast accuracy |
 | Regional Expansion (18–36 months) | Onboard additional countries via AU/CDC networks; standardise data schema; build federated analytics | Cross-border outbreak detection time; alignment with UHC tracer indicators |
 
-**Sustainability enablers** include open-source licensing, modular API architecture, and localisation partnerships with digital health implementers (e.g., PATH, Medic, Ona). Impact can be tracked through improved facility functionality scores, reduced patient waiting times, and higher commodity availability, directly advancing Universal Health Coverage and the Africa Health Strategy 2016–2030.
+**Sustainability enablers** include open-source licensing, modular API architecture, prebuilt offline caches, and localisation partnerships with digital health implementers (e.g., PATH, Medic, Ona). Impact can be tracked through improved facility functionality scores, reduced patient waiting times, higher commodity availability, and multilingual engagement metrics—directly advancing Universal Health Coverage and the Africa Health Strategy 2016–2030.

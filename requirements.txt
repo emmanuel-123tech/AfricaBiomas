@@ -1,3 +1,5 @@
-# Optional packages for advanced analytics (not required for the base prototype)
-pandas
+# Dependencies for enriched analytics, localisation, and UI layers
 numpy
+pandas
+requests
+streamlit
